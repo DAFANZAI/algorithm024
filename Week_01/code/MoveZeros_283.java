@@ -24,7 +24,7 @@ public class MoveZeros_283 {
      * 复杂度：O(n)
      * @param nums
      */
-    public void moveZeroes(int[] nums) {
+    public void moveZeroes2(int[] nums) {
         int j = 0;
         for(int i = 0; i < nums.length; i++) {
             if(nums[i] != 0) {
