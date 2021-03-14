@@ -19,6 +19,6 @@ maximalSquare:
       
 注意：二维矩阵空防护判定条件
 
-        `if(matrix == null || matrix.length == 0 || matrix[0].length ==0) {
+        if(matrix == null || matrix.length == 0 || matrix[0].length ==0) {
             return 0;
-        }`
+        }
