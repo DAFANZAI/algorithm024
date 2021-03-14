@@ -19,7 +19,8 @@ public class MinStack_155 {
     }
 
     public void pop() {
-        if(stack.peek() == stackMin.peek()) {
+        //注意点：两个Integer对象不能直接用==来判断值是否相等
+        if(stack.peek().equals(stackMin.peek())) {
             stackMin.pop();
         }
         stack.pop();
